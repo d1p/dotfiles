@@ -7,6 +7,7 @@ else
 	Plug 'roxma/nvim-yarp'
 	Plug 'roxma/vim-hug-neovim-rpc'
 endif
+
 Plug 'tmhedberg/SimpylFold'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
@@ -15,6 +16,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'othree/html5.vim'
 Plug 'elzr/vim-json'
 Plug 'tweekmonster/django-plus.vim'
+Plug 'rainglow/vim'
 
 call plug#end()
 
@@ -45,4 +47,4 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 syntax on
-
+colorscheme rainbow
