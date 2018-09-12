@@ -23,7 +23,7 @@ let g:deoplete#enable_at_startup = 1
 set termguicolors
 set nocompatible
 filetype on
-set nu
+set number relativenumber
 set foldmethod=indent
 set foldlevel=99
 filetype plugin indent on    " required
